@@ -1,0 +1,8 @@
+from statistics import mode, median, mean
+numbers = [1, 2, 1, 3,2, 5]
+mode_value = mode(numbers)
+median_value = median(numbers)
+mean_value = mean(numbers)
+print("Mode:", mode_value)
+print("Median:", median_value)
+print("Mean:",mean_value)
