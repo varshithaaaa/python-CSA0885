@@ -1,0 +1,13 @@
+salary=int(input("enter the salary:"))
+if salary<=10000 and salary>2000:
+    print("bonus=",salary*(5/100))
+elif salary>10000:
+    print("bonus", salary*(7.5/100))
+elif salary<=2000:
+    exp=int(input("exp="))
+    if exp<5:
+        print("bonus=", salary*0.05)
+    else:
+        print("bonus", salary*0.1)
+else:
+    print("invalid output")
