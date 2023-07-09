@@ -1,0 +1,9 @@
+a=[]
+size = int(input("enter the size :")) 
+for x in range(0,size): 
+    x=int(input("enter element :"))
+    a.appendi(x)
+a.sort()
+print(a)
+print("max element=",(a[size-1]))
+print("second max=",(a[size-2]))
