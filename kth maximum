@@ -1,0 +1,4 @@
+arr = [23, 36, 12, 19, 10, 8, 66]
+arr = sorted(arr, reverse=True)
+k=3
+print ("kth largest element:", arr[k-1])
