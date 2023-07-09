@@ -1,0 +1,15 @@
+num1=int(input("enter a number1"))
+num2=int(input("enter a number2"))
+print(num1,num2)
+add=num1+num2
+sub=num1-num2
+mul=num1*num2
+div=num1/num2
+rem = num1%num2
+float_div = num1//num2
+print("addition is",add)
+print("subtraction is",sub)
+print("multiplication is",mul)
+print("division is",div)
+print("remainder is",rem)
+print("float_div is",float_div)
